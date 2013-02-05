@@ -1,0 +1,28 @@
+Name: Fernando Carrillo (fcarril1)
+Class: CMPS101 w/ Patrick Tantalo
+Assignment: pa2
+
+ Description: The Shuffle program reads in permutations
+              from a file. It then makes a default list and applies
+              the permutations to it. It repeats this process until it
+              reverts back to its default state and prints out how many
+              iterations it took to do so.
+
+
+Files Submitted: List.c, List.h, ListTest.c, Shuffle.c, Makefile, and README
+
+List.c:        Contains the doubly linked List ADT and all its functions.
+
+List.h:        Contains all the functions names in List.c to be used in Shuffle.c
+
+ListTest.c:    Contains a program that uses the List ADT to make sure everything
+               is in order by calling all of its functions. 
+
+Shuffle.c:     Reads in a file and creats a List of permutations. 
+               It then applies this permutation to a normal List. It does this
+               until the List is back to normal and prints out the order or 
+               amount of iterations it took to get back to normal. 
+
+Makefile:      Compiles everything and makes the Shuffle program into a jar file.
+
+README:        The title serves its purpose. 
