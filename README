@@ -2,12 +2,13 @@ Name: Fernando Carrillo (fcarril1)
 Class: CMPS101 w/ Patrick Tantalo
 Assignment: pa2
 
- Description: The Shuffle program reads in permutations
-              from a file. It then makes a default list and applies
-              the permutations to it. It repeats this process until it
-              reverts back to its default state and prints out how many
-              iterations it took to do so.
+Description: The Shuffle program reads in permutations
+             from a file. It then makes a default list and applies
+             the permutations to it. It repeats this process until it
+             reverts back to its default state and prints out how many
+             iterations it took to do so.
 
+Compiling Instructions: Download all the files and type "make" in SSH
 
 Files Submitted: List.c, List.h, ListTest.c, Shuffle.c, Makefile, and README
 
